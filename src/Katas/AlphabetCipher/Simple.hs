@@ -1,4 +1,4 @@
-module Katas.AlphabetCipher (
+module Katas.AlphabetCipher.Simple (
   Headers(..)
 , Row(..)
 , Table(..)

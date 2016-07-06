@@ -1,12 +1,12 @@
-module Katas.AlphabetCipherSpec (
+module Katas.AlphabetCipher.SimpleSpec (
   spec
 ) where
 
-import           Data.Maybe           (fromJust)
-import           Katas.AlphabetCipher (Headers (..), Table (..),
-                                       TableDirection (..), decode, encode,
-                                       findIn, makeSquareTable, makeTable,
-                                       sliceBy)
+import           Data.Maybe                  (fromJust)
+import           Katas.AlphabetCipher.Simple (Headers (..), Table (..),
+                                              TableDirection (..), decode,
+                                              encode, findIn, makeSquareTable,
+                                              makeTable, sliceBy)
 import           Test.Hspec
 
 spec :: Spec
